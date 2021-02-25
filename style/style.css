@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header Start */
+
+header {
+    background: url(../img/nike.jpg) no-repeat center center /cover;
+    height: 672px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+.logo {
+    margin: 10px 0 0 17px;
+}
+
+header nav ul a {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 19px 24px 21px 28px;
+    display: inline-block;
+}
+
+header nav ul a:hover {
+    background: #c1bc45;
+    color: white;
+    transition: 500ms;
+}
+
+.header__content h1 {
+    font-size: 100px;
+    font-family: arial;
+    font-weight: bold;
+    color: #c0bc45;
+    line-height: 72px;
+    margin-bottom: 15px;
+}
+
+.header__content p {
+    font-size: 18px;
+    font-family: arial;
+    color: #4d4d4d;
+    /* line-height: 13px; */
+}
+
+.header__content p span {
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header__row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.left h2 span {
+    font-size: 25px;
+    line-height: 18px;
+    /* margin-top: 21px; */
+}
+
+.left p {
+    /* text-align: justify; */
+    color: #333333;
+    /* font-size: 16px; */
+    font-family: arial;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+
+/* Header End */
+
+/* ************************** */
+
+/* Main Start */
+
+main {
+    margin-top: 88px;
+    margin-bottom: 135px;
+}
+
+.left, .right {
+    width: 540px;
+}
+
+.left img {
+    margin-bottom: 21px;
+}
+
+.main__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right__item {
+    border: 4px solid #aeaeae;
+    display: flex;
+}
+
+.right__item:hover {
+    border: 4px solid #f0efb6;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.right__item img {
+    margin: 13px 38px 14px 23px;
+}
+
+.right__item-info h3 {
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 16px;
+    margin: 15px 0;
+}
+
+.right__item-info p {
+    font-family: arial;
+    color: #919191;
+    line-height: 24px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main End */
+
+/* *********************************** */
+
+/* Footer Start */
+
+footer {
+    background: #eee9e9;
+    padding-top: 108px;
+    padding-bottom: 31px;
+}
+
+footer nav ul a {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 51px;
+    padding-bottom: 10px;
+}
+
+footer ul a:hover {
+    color: #bc3333;
+    border-bottom: 4px solid #ff0000;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #5a5a5a;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 65px;
+}
+
+/* Footer End */
+
+/* ***************************************** */
